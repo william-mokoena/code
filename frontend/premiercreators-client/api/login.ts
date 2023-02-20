@@ -8,7 +8,7 @@ export default function login(username: string, userPassword: string) {
 
   const config = {
     method: "post",
-    url: "https://5000-williammoko-221212james-219vby8q3s9.ws-eu86.gitpod.io/login",
+    url: "http://209.97.134.126/login",
     headers: {
       "Content-Type": "application/json",
     },

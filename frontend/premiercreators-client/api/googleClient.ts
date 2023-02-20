@@ -3,7 +3,7 @@ import axios from "axios";
 export function initGoogleClient(token: string) {
   const config = {
     method: "get",
-    url: "https://5000-williammoko-221212james-219vby8q3s9.ws-eu86.gitpod.io/api/client/google/init_google_client",
+    url: "http://209.97.134.126/api/client/google/init_google_client",
     headers: {
       Authorization: `Bearer ${token}`,
     },
@@ -14,7 +14,7 @@ export function initGoogleClient(token: string) {
 export function uploadServiceAccountCredentials(token: string, data: FormData) {
   const config = {
     method: "post",
-    url: "https://5000-williammoko-221212james-219vby8q3s9.ws-eu86.gitpod.io/api/client/google/upload_credentials",
+    url: "http://209.97.134.126/api/client/google/upload_credentials",
     data: data,
     headers: {
       Authorization: `Bearer ${token}`,
@@ -27,7 +27,7 @@ export function uploadServiceAccountCredentials(token: string, data: FormData) {
 export function checkGoogleClientState(token: string) {
   const config = {
     method: "get",
-    url: "https://5000-williammoko-221212james-219vby8q3s9.ws-eu86.gitpod.io/api/client/google/google_client_state",
+    url: "http://209.97.134.126/api/client/google/google_client_state",
     headers: {
       Authorization: `Bearer ${token}`,
     },
