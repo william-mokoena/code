@@ -6,7 +6,7 @@ export default function getCreators(
 ) {
   const config = {
     method: "post",
-    url: "http://209.97.134.126/api/get_creators",
+    url: "http://209.97.134.126:81/api/get_creators",
     data: JSON.stringify(data),
     headers: {
       Authorization: `Bearer ${token}`,

@@ -7,7 +7,7 @@ export default function addSubreddit(
 ) {
   const config = {
     method: "get",
-    url: `http://209.97.134.126/api/add_subreddit?name=${subredditName}&verificationRequired=${verificationRequired}`,
+    url: `http://209.97.134.126:81/api/add_subreddit?name=${subredditName}&verificationRequired=${verificationRequired}`,
     headers: {
       Authorization: `Bearer ${token}`,
     },
